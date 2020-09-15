@@ -1,0 +1,65 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto', sans-serif;
+    
+}
+
+body{
+    background-image: url(afbeeldingen/bg.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    overflow: hidden; 
+    border: black;
+ 
+    
+}
+nav{
+    background-color: #e494b1;
+    padding: 10px;
+}
+
+nav>ul{
+    list-style-type: none;
+    font-size: 1.5em;
+}
+
+nav ul li {
+    display: inline;
+    
+}
+nav ul li a {
+    color: #fff;
+    font-weight: bold;
+    text-decoration: none;
+    margin: 0px 0px 0px 25px;
+}
+
+nav ul li a:hover {
+    color: black;
+
+}
+
+img{
+    height: 25%;
+    width: 25%;
+    float: right;
+    border-radius: 50%;
+    border-style: solid;
+    border-color: #b5c4e1;
+
+}
+
+div{
+ margin: 150px ;
+}
+
+div main section h2{
+    margin: 15px 0 0 0;
+    
+}
+
+div main section ul li{
+        list-style: none;
+
+}
